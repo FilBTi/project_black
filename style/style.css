@@ -1,0 +1,121 @@
+
+
+body{
+    width:100%;
+    min-height: 720px;
+    max-width: 1920px;
+    background: linear-gradient(125.42deg, #181A20 12.55%, #060606 79.18%);
+}
+
+.header{
+    margin-top: 100px;
+}
+
+.container{
+    margin:0 250px;
+}
+
+.nav_wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.head_logo{
+    display:inline-block;
+}
+
+ul{
+    margin-left: 90px;
+    display:flex;
+    list-style: none;
+
+}
+
+li{
+    margin-right: 23px;
+   
+}
+
+.header_link{
+    text-decoration: none;
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    font-variant: small-caps;
+    color: #FFFFFF;
+}
+
+.header_link:hover{
+    text-decoration:underline;
+}
+
+.header_basket{
+    margin-left:370px;
+    padding:2px 2px;
+    background: #D9D9D9;
+    border-radius: 22px;
+}
+
+.header_sing_in{
+    display:flex;
+    padding: 0 2px;
+    align-items:center;
+    margin-left:27px;
+    background: #D9D9D9;
+    border-radius: 22px;
+
+
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+.content_search_block{
+    margin-top: 80px;
+    height: 364px;
+    background: url("/images/pont.png") center center/cover no-repeat;
+    border-radius: 27px;
+}
+
+h1{
+    padding-top: 111px;
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F9FBFE;
+}
+
+.border{
+    display: flex;
+    align-items:center;
+    margin-left: 98px;
+    width: 780px;
+    height: 45.84px;
+    background: rgba(180, 178, 178, 0.3);
+    border-radius: 12px;
+}
+
+.searh_place{
+    border-style: none;
+    margin-left: 15px;
+    width: 710px;
+    height: 28.65px;
+    background: #D1CECE;
+    border-radius: 6px 0px 0px 6px;
+}
+
+.search_button{
+    border-style: none;
+    width: 34.36px;
+    height: 28.65px;
+    background: #282A2D;
+    border-radius: 0px 3px 3px 0px;
+}
