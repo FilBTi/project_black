@@ -78,7 +78,7 @@ li{
 .content_search_block{
     margin-top: 80px;
     height: 364px;
-    background: url("/images/pont.png") center center/cover no-repeat;
+    background:url("../images/pont.png") center center/cover no-repeat;
     border-radius: 27px;
 }
 
