@@ -1,0 +1,81 @@
+/* Для удобства сделал отдельный файл стилей для регестрации, но потом можно все в один файл */
+body{
+    background: linear-gradient(125.42deg, #181A20 12.55%, #060606 79.18%);
+}
+
+.container{
+    margin:0 250px;
+}
+
+.main{
+    margin-top: 60px;
+}
+
+.wrap_logo{
+    display:flex;
+    justify-content:right;
+}
+
+.logo{
+    width: 70px;
+    height: 60px;
+    background: url(photo_2022-10-30_12-42-16.jpg);
+    border-radius: 21px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    font-variant: small-caps;
+    color: #FFFFFF;
+}
+
+.reg_point{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    margin-left: 15px;
+    width: 270px;
+    height: 25px;
+    background: #3B3D47;
+    border-radius: 12px;}
+
+.in_point_wrapp{
+    width:420px;
+    display: flex;
+    justify-content:right;
+    align-items: center;
+}
+
+.input_txt{
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+button{
+    margin-top: 50px;
+    width: 228px; /*За это можно сесеть */
+    height: 29px;
+    background: #3B3D47;
+    border-radius: 28px;
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    font-variant: small-caps;
+    color: #FFFFFF;
+    }
+
+    button:hover{
+        background: #282930;
+    }
